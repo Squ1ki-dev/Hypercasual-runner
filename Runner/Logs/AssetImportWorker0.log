@@ -1,0 +1,606 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.25f1 (9b9180224418) revision 10195328'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19042) 64bit Professional' Language: 'en' Physical Memory: 8071 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.25f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Squ1ki/Downloads/Hypercasual-runner/Runner
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+63246
+Successfully changed project path to: C:/Users/Squ1ki/Downloads/Hypercasual-runner/Runner
+C:/Users/Squ1ki/Downloads/Hypercasual-runner/Runner
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 35.19 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.25f1 (9b9180224418)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Squ1ki/Downloads/Hypercasual-runner/Runner/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce MX130 (ID=0x174d)
+    Vendor:   
+    VRAM:     2010 MB
+    Driver:   30.0.14.7212
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56132
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002506 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 32.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.618 seconds
+Domain Reload Profiling:
+	ReloadAssembly (619ms)
+		BeginReloadAssembly (60ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (480ms)
+			LoadAssemblies (59ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (169ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (173ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (33ms)
+				BeforeProcessingInitializeOnLoad (14ms)
+				ProcessInitializeOnLoadAttributes (89ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005012 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.100 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1101ms)
+		BeginReloadAssembly (155ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (880ms)
+			LoadAssemblies (90ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (326ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (318ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (202ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1501 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.4 MB.
+System memory in use after: 67.5 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1932.
+Total: 3.036000 ms (FindLiveObjects: 0.136000 ms CreateObjectMapping: 0.044100 ms MarkObjects: 2.791800 ms  DeleteObjects: 0.063100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.003803 seconds 
+  Import took 0.006366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(8afec4ffe3a64f7408e9bcee89e409e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(8afec4ffe3a64f7408e9bcee89e409e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef0a6131df4ce1beabc795bb0f25a1aa') in 0.001585 seconds 
+  Import took 0.003558 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.21 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 37.8 MB.
+System memory in use after: 37.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1932.
+Total: 2.727400 ms (FindLiveObjects: 0.137100 ms CreateObjectMapping: 0.049400 ms MarkObjects: 2.526000 ms  DeleteObjects: 0.013700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 10.124510 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(6adfb60ea62eede4f820e2fd7f6b0530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(6adfb60ea62eede4f820e2fd7f6b0530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb6f160e03553363980654620436a436') in 0.002101 seconds 
+  Import took 0.004970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.030853 seconds.
+  path: Assets/Prefab
+  artifactKey: Guid(a1203ff7a4f547243a0318d0548f38eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab using Guid(a1203ff7a4f547243a0318d0548f38eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0edb6af7700e1c5ccf6cccfde94ab894') in 0.001783 seconds 
+  Import took 0.004155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.813405 seconds.
+  path: Assets/Models
+  artifactKey: Guid(1c0404994073c0a4c953fe146bb7ceb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models using Guid(1c0404994073c0a4c953fe146bb7ceb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a37fef1f979496cff6307d3d0ffe436') in 0.001825 seconds 
+  Import took 0.004320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.131912 seconds.
+  path: Assets/Sound
+  artifactKey: Guid(7adbffba1d823484c8d9ec4ceec59a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound using Guid(7adbffba1d823484c8d9ec4ceec59a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ef07e32814549e3940b7ba8e53b6fbe') in 0.001778 seconds 
+  Import took 0.004852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.892438 seconds.
+  path: Assets/Sprite
+  artifactKey: Guid(36e31f2962e551a45bfcb09a1864fc10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite using Guid(36e31f2962e551a45bfcb09a1864fc10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26505d3d776a8628403ed15394cbd979') in 0.002040 seconds 
+  Import took 0.004460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 122.156346 seconds.
+  path: Assets/Models/Low-Poly game
+  artifactKey: Guid(8587fc7509ecc8f4d8939bff9bd08cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Low-Poly game using Guid(8587fc7509ecc8f4d8939bff9bd08cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '855c07f042d7644707bbef338c4f139b') in 0.002372 seconds 
+  Import took 0.005203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.618882 seconds.
+  path: Assets/Models/Low-Poly game/Елка
+  artifactKey: Guid(a135709d50298b4458ffa1e2cedd1292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Low-Poly game/Елка using Guid(a135709d50298b4458ffa1e2cedd1292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41695a5a99e3f37784ca7d28a452b2fe') in 0.001983 seconds 
+  Import took 0.004520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.070146 seconds.
+  path: Assets/Models/Low-Poly game/Елка/obj.obj
+  artifactKey: Guid(330750bc3a4a2d44fba8cf55c90941a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Low-Poly game/Елка/obj.obj using Guid(330750bc3a4a2d44fba8cf55c90941a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4c7a9107e373bf4aee01ec450ee8f91') in 0.320007 seconds 
+  Import took 0.323157 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000457 seconds.
+  path: Assets/Models/Low-Poly game/Елка/tex_Emission.tga
+  artifactKey: Guid(f3fd0d236742510439cd892671bd4ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Low-Poly game/Елка/tex_Emission.tga using Guid(f3fd0d236742510439cd892671bd4ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b843dfe8130b2ed8d24d5a415877408') in 0.137141 seconds 
+  Import took 0.139681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Models/Low-Poly game/Елка/tex_Gloss.tga
+  artifactKey: Guid(aa96de25c616be94f95fc7b96c9ea96a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Low-Poly game/Елка/tex_Gloss.tga using Guid(aa96de25c616be94f95fc7b96c9ea96a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8fdb57f30a28313948e170ecd113b44') in 0.060841 seconds 
+  Import took 0.063262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Models/Low-Poly game/Елка/tex_Normal.tga
+  artifactKey: Guid(2495eec359d48cb46a8ba43a0bb847e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Low-Poly game/Елка/tex_Normal.tga using Guid(2495eec359d48cb46a8ba43a0bb847e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a852cb29339632ce5d7802142b944d2f') in 0.056961 seconds 
+  Import took 0.059343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Models/Low-Poly game/Елка/tex_Metalness.tga
+  artifactKey: Guid(ec8e18cb017027c428b475a1165b8ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Low-Poly game/Елка/tex_Metalness.tga using Guid(ec8e18cb017027c428b475a1165b8ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '521d10d9b31fada0fe590d7e512c1892') in 0.063859 seconds 
+  Import took 0.066560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Models/Low-Poly game/Елка/tex.obj
+  artifactKey: Guid(44d086dd1bf437d4fa51d4decade91f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Low-Poly game/Елка/tex.obj using Guid(44d086dd1bf437d4fa51d4decade91f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb7801042f6b1f4faf41d400a5f35be1') in 0.414688 seconds 
+  Import took 0.417575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Models/Low-Poly game/Елка/tex_Albedo.tga
+  artifactKey: Guid(223db9a4de3e5d34da5384ea94221079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Low-Poly game/Елка/tex_Albedo.tga using Guid(223db9a4de3e5d34da5384ea94221079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff7960306d546c6ccbedc08159a2b0ca') in 0.062322 seconds 
+  Import took 0.064874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Models/Low-Poly game/Елка/tex_Occlusion.tga
+  artifactKey: Guid(d33e8d8094dc174488a99a1fa26fa165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Low-Poly game/Елка/tex_Occlusion.tga using Guid(d33e8d8094dc174488a99a1fa26fa165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45627b696ca24e96868111e71253962b') in 0.061234 seconds 
+  Import took 0.063791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.784415 seconds.
+  path: Assets/Models/Low-Poly game/Елка/Без снега
+  artifactKey: Guid(08fa4ab2c3cbf2d4a9b4018160fdcf10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Low-Poly game/Елка/Без снега using Guid(08fa4ab2c3cbf2d4a9b4018160fdcf10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97d3999803d3b7d4e5bd5c2aa236214b') in 0.005852 seconds 
+  Import took 0.009237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 121.162382 seconds.
+  path: Assets/Models/Low-Poly game/Камни
+  artifactKey: Guid(457f9844e29442d419736262b1c9b577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Low-Poly game/Камни using Guid(457f9844e29442d419736262b1c9b577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfc4fbd886e031af63df056e6fdeef11') in 0.001986 seconds 
+  Import took 0.006353 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.056966 seconds.
+  path: Assets/Models/Low-Poly game/Камни/obj.obj
+  artifactKey: Guid(ee4b4a25a7c47e84f846634fe976d3c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Low-Poly game/Камни/obj.obj using Guid(ee4b4a25a7c47e84f846634fe976d3c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c95e669ee3546b8c673b4133ae044621') in 0.024795 seconds 
+  Import took 0.027362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Models/Low-Poly game/Камни/tex_Metalness.tga
+  artifactKey: Guid(91b6e42e7bc9a5a4589224821372a242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Low-Poly game/Камни/tex_Metalness.tga using Guid(91b6e42e7bc9a5a4589224821372a242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9617cd4c62c0cdaae3d2f73dd8d616d8') in 0.056471 seconds 
+  Import took 0.058987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Models/Low-Poly game/Камни/tex_Albedo.tga
+  artifactKey: Guid(fb1a3aae8f2096b429e0103843436065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Low-Poly game/Камни/tex_Albedo.tga using Guid(fb1a3aae8f2096b429e0103843436065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9794e182c091bbde638c29aef49ed83') in 0.055483 seconds 
+  Import took 0.058777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/Models/Low-Poly game/Камни/tex_Occlusion.tga
+  artifactKey: Guid(3ce883e30198d664698c7c8a3495ab8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Low-Poly game/Камни/tex_Occlusion.tga using Guid(3ce883e30198d664698c7c8a3495ab8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfccafc8a8c3e20d5a5fb3a906d565e6') in 0.063236 seconds 
+  Import took 0.065904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Models/Low-Poly game/Камни/tex_Emission.tga
+  artifactKey: Guid(f827b63ab135db948b6d90afee6f6807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Low-Poly game/Камни/tex_Emission.tga using Guid(f827b63ab135db948b6d90afee6f6807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e61a700a6f5d3030396a967709f93192') in 0.072321 seconds 
+  Import took 0.074995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Models/Low-Poly game/Камни/tex_Normal.tga
+  artifactKey: Guid(ae75b61adc8e3cb4fa4c9aae10f6790e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Low-Poly game/Камни/tex_Normal.tga using Guid(ae75b61adc8e3cb4fa4c9aae10f6790e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd01f6488eae01d5b0b44296efc7459a') in 0.056904 seconds 
+  Import took 0.059573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Models/Low-Poly game/Камни/tex_Gloss.tga
+  artifactKey: Guid(18f933796b2efae4db58c460cdbb05f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Low-Poly game/Камни/tex_Gloss.tga using Guid(18f933796b2efae4db58c460cdbb05f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96d3367a82440037dcd01f97a2975e34') in 0.058008 seconds 
+  Import took 0.060663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/Models/Low-Poly game/Камни/tex.obj
+  artifactKey: Guid(757881e572ebc2144b1a8d4303fa6f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Low-Poly game/Камни/tex.obj using Guid(757881e572ebc2144b1a8d4303fa6f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6e0cd6e98ec37b958066c60fb0d8278') in 0.158239 seconds 
+  Import took 0.160939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.529441 seconds.
+  path: Assets/Models/Low-Poly game/Огорождения 1
+  artifactKey: Guid(a16dd375352e65f4e8b6dad92bf38791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Low-Poly game/Огорождения 1 using Guid(a16dd375352e65f4e8b6dad92bf38791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69ce42789f6cadffee501d6845b9ab84') in 0.001923 seconds 
+  Import took 0.005154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.058457 seconds.
+  path: Assets/Models/Low-Poly game/Огорождения 1/obj.obj
+  artifactKey: Guid(43f5c0e9c235cb244bfda4780e70d7f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Low-Poly game/Огорождения 1/obj.obj using Guid(43f5c0e9c235cb244bfda4780e70d7f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e6a26a7e7005446d6364177ca664924') in 0.025027 seconds 
+  Import took 0.028857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Models/Low-Poly game/Огорождения 1/tex_Emission.tga
+  artifactKey: Guid(80420467e3d48ba4c819dd78851ca4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Low-Poly game/Огорождения 1/tex_Emission.tga using Guid(80420467e3d48ba4c819dd78851ca4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23a0e54777aa994356351929f45d9154') in 0.072296 seconds 
+  Import took 0.074763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Models/Low-Poly game/Огорождения 1/tex_Metalness.tga
+  artifactKey: Guid(372a4237bd01b2d4d824fc28ec23981f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Low-Poly game/Огорождения 1/tex_Metalness.tga using Guid(372a4237bd01b2d4d824fc28ec23981f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0438f9b6589aba242217f3b1d2eda9b5') in 0.058986 seconds 
+  Import took 0.061625 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/Models/Low-Poly game/Огорождения 1/tex_Albedo.tga
+  artifactKey: Guid(6295a2417e388f644a49411b6a7298da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Low-Poly game/Огорождения 1/tex_Albedo.tga using Guid(6295a2417e388f644a49411b6a7298da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9e6a75782ab8f1b78c718585434cc58') in 0.059515 seconds 
+  Import took 0.062439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Models/Low-Poly game/Огорождения 1/tex_Gloss.tga
+  artifactKey: Guid(8ffaa1abf4ef78549bb470141698db2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Low-Poly game/Огорождения 1/tex_Gloss.tga using Guid(8ffaa1abf4ef78549bb470141698db2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2642c859e9f17f1bef91cc66ecc472e') in 0.062893 seconds 
+  Import took 0.065850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Models/Low-Poly game/Огорождения 1/tex_Normal.tga
+  artifactKey: Guid(1294bda213c88c64ab418a8be43fd220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Low-Poly game/Огорождения 1/tex_Normal.tga using Guid(1294bda213c88c64ab418a8be43fd220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '763dca92f52ed6873e21d181c000acaa') in 0.056227 seconds 
+  Import took 0.058964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/Models/Low-Poly game/Огорождения 1/tex.obj
+  artifactKey: Guid(4017310d795f22e43b436f23c935ff56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Low-Poly game/Огорождения 1/tex.obj using Guid(4017310d795f22e43b436f23c935ff56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b496017ec72cc13314d3bedd77537e0') in 0.082474 seconds 
+  Import took 0.085008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Models/Low-Poly game/Огорождения 1/tex_Occlusion.tga
+  artifactKey: Guid(2a01617a53778ee4aba61a89b936ecdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Low-Poly game/Огорождения 1/tex_Occlusion.tga using Guid(2a01617a53778ee4aba61a89b936ecdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38339b9d3a53feff8034c01f3d9a5fb0') in 0.057135 seconds 
+  Import took 0.059669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.669271 seconds.
+  path: Assets/Models/Low-Poly game/Огорождения 2
+  artifactKey: Guid(70796aa1fdb5b5047aa31cce3dbca864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Low-Poly game/Огорождения 2 using Guid(70796aa1fdb5b5047aa31cce3dbca864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3f5edd60718b842f5c2b4c71c05d132') in 0.002161 seconds 
+  Import took 0.004825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.056402 seconds.
+  path: Assets/Models/Low-Poly game/Огорождения 2/obj.obj
+  artifactKey: Guid(6da04590553efcc43983c7f324b580dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Low-Poly game/Огорождения 2/obj.obj using Guid(6da04590553efcc43983c7f324b580dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb8a02a7262c65bdf1238146fe9398d1') in 0.028508 seconds 
+  Import took 0.031121 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Models/Low-Poly game/Огорождения 2/tex_Occlusion.tga
+  artifactKey: Guid(4c4a32b6c1597ea4f97c0098bd1703ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Low-Poly game/Огорождения 2/tex_Occlusion.tga using Guid(4c4a32b6c1597ea4f97c0098bd1703ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28cdc697c142865babd0e8fdeda290e6') in 0.058982 seconds 
+  Import took 0.061473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Models/Low-Poly game/Огорождения 2/tex_Gloss.tga
+  artifactKey: Guid(3d618c667847a43469eeca8d9b7a3563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Low-Poly game/Огорождения 2/tex_Gloss.tga using Guid(3d618c667847a43469eeca8d9b7a3563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac15de4096e9885b8bbe13254f959788') in 0.057261 seconds 
+  Import took 0.059975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Models/Low-Poly game/Огорождения 2/tex_Metalness.tga
+  artifactKey: Guid(6d0b6229888805e49b0bbbdf75be4e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Low-Poly game/Огорождения 2/tex_Metalness.tga using Guid(6d0b6229888805e49b0bbbdf75be4e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41fc511fcd30f0ff56995bbd5d2c408d') in 0.060472 seconds 
+  Import took 0.062976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Models/Low-Poly game/Огорождения 2/tex_Emission.tga
+  artifactKey: Guid(f722144cd477af4429d90c4a951a5e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Low-Poly game/Огорождения 2/tex_Emission.tga using Guid(f722144cd477af4429d90c4a951a5e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '608a9f47fca54264ac41d3a8ca0df648') in 0.071162 seconds 
+  Import took 0.073838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/Models/Low-Poly game/Огорождения 2/tex_Albedo.tga
+  artifactKey: Guid(3c8f25117059c4c47a4b81d0856cb790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Low-Poly game/Огорождения 2/tex_Albedo.tga using Guid(3c8f25117059c4c47a4b81d0856cb790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8145d075fbbd5ed9c17a8d045fd70a2f') in 0.056920 seconds 
+  Import took 0.059606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Models/Low-Poly game/Огорождения 2/tex_Normal.tga
+  artifactKey: Guid(2a63e310cd799f841ae32ad56b03c789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Low-Poly game/Огорождения 2/tex_Normal.tga using Guid(2a63e310cd799f841ae32ad56b03c789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e187621883763aeeb5a1b5b5575b4d63') in 0.056852 seconds 
+  Import took 0.059605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Models/Low-Poly game/Огорождения 2/tex.obj
+  artifactKey: Guid(d07c116bc4ccdb542a14e7bef247fe6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Low-Poly game/Огорождения 2/tex.obj using Guid(d07c116bc4ccdb542a14e7bef247fe6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33e233761b2ef86fe2e274468793852b') in 1.433595 seconds 
+  Import took 1.437798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.659563 seconds.
+  path: Assets/Models/Low-Poly game/Скамейка
+  artifactKey: Guid(16482974abc5e0e4a9b1e26a021d58e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Low-Poly game/Скамейка using Guid(16482974abc5e0e4a9b1e26a021d58e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ed0362531038f08e3409c04468917f0') in 0.001984 seconds 
+  Import took 0.006201 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.781461 seconds.
+  path: Assets/Models/Low-Poly game/Скамейка/obj.obj
+  artifactKey: Guid(74a674694514e864a89d3bad5a756508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Low-Poly game/Скамейка/obj.obj using Guid(74a674694514e864a89d3bad5a756508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55894596be10fc9488f8f656dd40fc4b') in 0.020577 seconds 
+  Import took 0.023471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.456306 seconds.
+  path: Assets/Models/Low-Poly game/Столб
+  artifactKey: Guid(21b0b9538d501c04fb6d038f29ba3dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Low-Poly game/Столб using Guid(21b0b9538d501c04fb6d038f29ba3dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '790e062e9097654a459000bb47b3607e') in 0.002349 seconds 
+  Import took 0.006619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.069751 seconds.
+  path: Assets/Models/Low-Poly game/Столб/Obj.obj
+  artifactKey: Guid(04a328592a28f8c45bcec1f4f7a1fcbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Low-Poly game/Столб/Obj.obj using Guid(04a328592a28f8c45bcec1f4f7a1fcbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40cf42550397993e187d09824692560f') in 0.024554 seconds 
+  Import took 0.027256 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004549 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.014 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1015ms)
+		BeginReloadAssembly (113ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (838ms)
+			LoadAssemblies (90ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (302ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (295ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (185ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395205) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1498 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.4 MB.
+System memory in use after: 71.5 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1978.
+Total: 3.198400 ms (FindLiveObjects: 0.159000 ms CreateObjectMapping: 0.048800 ms MarkObjects: 2.970600 ms  DeleteObjects: 0.018700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
