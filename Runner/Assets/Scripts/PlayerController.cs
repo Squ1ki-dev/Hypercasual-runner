@@ -5,6 +5,9 @@ using TMPro;
 
 public class PlayerController : MonoBehaviour
 {
+    public InterAd interAd;
+    private int tryCount;
+
     private CharacterController controller;
     private Vector3 dir;
     [SerializeField] private float speed;
@@ -14,6 +17,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private GameObject losePanel;
     [SerializeField] private TextMeshProUGUI coinsText;
     [SerializeField] private Score scoreScript;
+    [SerializeField] private ParticleSystem snowParticle;
+    [SerializeField] private ParticleSystem coinCollectParticle;
 
     private int lineToMove = 1;
     [SerializeField] private float lineDistance = 4;
@@ -26,6 +31,7 @@ public class PlayerController : MonoBehaviour
         Time.timeScale = 1;
         coins = PlayerPrefs.GetInt("Coins");
         coinsText.text = coins.ToString();
+        tryCount = PlayerPrefs.GetInt("tryCount");
     }
 
     private void Update()
@@ -33,17 +39,26 @@ public class PlayerController : MonoBehaviour
         if(SwipeController.swipeRight)
         {
             if(lineToMove < 2)
+            {
+                snowParticle.Play();
                 lineToMove++;
+            }
         }
         if(SwipeController.swipeLeft)
         {
             if(lineToMove > 0)
-                lineToMove--;
+            {
+                lineToMove--;;
+                snowParticle.Play();
+            }
         }
         if(SwipeController.swipeUp)
         {
             if(controller.isGrounded)
+            {
                 Jump();
+                snowParticle.Pause();
+            }
         }
 
         Vector3 targetPosition = transform.position.z * transform.forward + transform.position.y * transform.up;
@@ -72,14 +87,20 @@ public class PlayerController : MonoBehaviour
     {
         dir.z = speed;
         dir.y += gravity * Time.fixedDeltaTime;
-        controller.Move(dir * Time.fixedDeltaTime);   
+        controller.Move(dir * Time.fixedDeltaTime);
     }
 
     private void OnControllerColliderHit(ControllerColliderHit hit) 
     {
         if(hit.gameObject.tag == "Obstacle")
         {
+            tryCount++;
+            PlayerPrefs.SetInt("tryCount", tryCount);
+            if(tryCount % 5 == 0)
+                interAd.ShowAd();
+
             losePanel.SetActive(true);
+
             int bestScore = int.Parse(scoreScript.scoreText.text.ToString());
             PlayerPrefs.SetInt("bestScore", bestScore);
             Time.timeScale = 0;
@@ -91,6 +112,7 @@ public class PlayerController : MonoBehaviour
         if(other.gameObject.tag == "Coin")
         {
             coins++;
+            Instantiate(coinCollectParticle, other.transform.position + new Vector3(0, 0.3f, 0), other.transform.rotation);
             PlayerPrefs.SetInt("Coins", coins);
             coinsText.text = coins.ToString();
             Destroy(other.gameObject);
@@ -99,10 +121,10 @@ public class PlayerController : MonoBehaviour
 
     private IEnumerator SpeedIncrease()
     {
-        yield return new WaitForSeconds(15);
+        yield return new WaitForSeconds(7);
         if(speed < maxSpeed)
         {
-            speed += 2;
+            speed += 0.75f;
             StartCoroutine(SpeedIncrease());
         }
     }

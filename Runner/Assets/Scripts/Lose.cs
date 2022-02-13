@@ -17,11 +17,11 @@ public class Lose : MonoBehaviour
         {
             recordScore = bestScore;
             PlayerPrefs.SetInt("recordScore", recordScore);
-            recordText.text = recordScore.ToString();
+            recordText.text = "BEST SCORE: " + recordScore.ToString();
         }
         else
         {
-            recordText.text = recordScore.ToString();
+            recordText.text = "BEST SCORE: " + recordScore.ToString();
         }
     }
     public void RestartLevel(int sceneIndex)
