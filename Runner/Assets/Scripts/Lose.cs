@@ -7,11 +7,13 @@ using TMPro;
 public class Lose : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI recordText;
+    private int bestScore;
+    private int recordScore;
 
     private void Start() 
     {
-        int bestScore = PlayerPrefs.GetInt("bestScore");
-        int recordScore = PlayerPrefs.GetInt("recordScore");
+        bestScore = PlayerPrefs.GetInt("bestScore");
+        recordScore = PlayerPrefs.GetInt("recordScore");
 
         if(bestScore > recordScore)
         {
@@ -24,10 +26,7 @@ public class Lose : MonoBehaviour
             recordText.text = "BEST SCORE: " + recordScore.ToString();
         }
     }
-    public void RestartLevel(int sceneIndex)
-    {
-        SceneManager.LoadScene(sceneIndex);
-    }
+    public void RestartLevel() => SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 
     public void BackMenu(int sceneIndex)
     {

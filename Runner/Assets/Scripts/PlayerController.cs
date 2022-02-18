@@ -5,36 +5,64 @@ using TMPro;
 
 public class PlayerController : MonoBehaviour
 {
+    // Ads
     public InterAd interAd;
     private int tryCount;
 
+    // CHARACTER
     private CharacterController controller;
     private Vector3 dir;
     [SerializeField] private float speed;
     [SerializeField] private float jumpForce;
     [SerializeField] private float gravity;
     [SerializeField] private int coins;
+
+    // UI
     [SerializeField] private GameObject losePanel;
     [SerializeField] private TextMeshProUGUI coinsText;
     [SerializeField] private Score scoreScript;
-    [SerializeField] private ParticleSystem snowParticle;
-    [SerializeField] private ParticleSystem coinCollectParticle;
 
+    // PARTICLE
+    [SerializeField] private ParticleSystem snowParticle;
+    [SerializeField] private GameObject coinCollectParticle;
+
+    // AUDIO
+    [SerializeField] private AudioSource audioSource;
+    [SerializeField] private AudioClip coinSound;
+    [SerializeField] private AudioClip jumpSound;
+
+    [SerializeField] private Animator animator;
+
+    // LINES
     private int lineToMove = 1;
     [SerializeField] private float lineDistance = 4;
     private const int maxSpeed = 120;
+
+    private void Awake() 
+    {
+        audioSource = GetComponent<AudioSource>();
+        controller = GetComponent<CharacterController>();
+        Time.timeScale = 1;
+    }
     
     private void Start()
     {
-        controller = GetComponent<CharacterController>();
         StartCoroutine(SpeedIncrease());
-        Time.timeScale = 1;
         coins = PlayerPrefs.GetInt("Coins");
         coinsText.text = coins.ToString();
         tryCount = PlayerPrefs.GetInt("tryCount");
     }
 
-    private void Update()
+    private void Update() => PlayerMove();
+
+    private void FixedUpdate() 
+    {
+        dir.z = speed;
+        dir.y += gravity * Time.fixedDeltaTime;
+        controller.Move(dir * Time.fixedDeltaTime);
+    }
+
+    public void PlayerMove()
     {
         if(SwipeController.swipeRight)
         {
@@ -54,11 +82,10 @@ public class PlayerController : MonoBehaviour
         }
         if(SwipeController.swipeUp)
         {
+            animator.SetBool("isGrounded", true);
+            snowParticle.Pause();
             if(controller.isGrounded)
-            {
                 Jump();
-                snowParticle.Pause();
-            }
         }
 
         Vector3 targetPosition = transform.position.z * transform.forward + transform.position.y * transform.up;
@@ -69,6 +96,9 @@ public class PlayerController : MonoBehaviour
 
         if(transform.position == targetPosition)
             return;
+
+        animator.SetBool("isGrounded", false);
+        snowParticle.Play();
         
         Vector3 diff = targetPosition - transform.position;
         Vector3 moveDir = diff.normalized * 30 * Time.deltaTime;
@@ -80,16 +110,11 @@ public class PlayerController : MonoBehaviour
 
     private void Jump()
     {
+        audioSource.PlayOneShot(jumpSound, .125f);
         dir.y = jumpForce;
     }
 
-    private void FixedUpdate() 
-    {
-        dir.z = speed;
-        dir.y += gravity * Time.fixedDeltaTime;
-        controller.Move(dir * Time.fixedDeltaTime);
-    }
-
+    // COLLIDER AND TRIGGER
     private void OnControllerColliderHit(ControllerColliderHit hit) 
     {
         if(hit.gameObject.tag == "Obstacle")
@@ -111,8 +136,9 @@ public class PlayerController : MonoBehaviour
     {
         if(other.gameObject.tag == "Coin")
         {
+            audioSource.PlayOneShot(coinSound, .5f);
             coins++;
-            Instantiate(coinCollectParticle, other.transform.position + new Vector3(0, 0.3f, 0), other.transform.rotation);
+            Instantiate(coinCollectParticle, other.transform.position, other.transform.rotation);
             PlayerPrefs.SetInt("Coins", coins);
             coinsText.text = coins.ToString();
             Destroy(other.gameObject);

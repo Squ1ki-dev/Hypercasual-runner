@@ -7,6 +7,7 @@ using TMPro;
 public class Pause : MonoBehaviour
 {
     [SerializeField] private GameObject pausePanel;
+    [SerializeField] private AudioSource btnSfx;
 
     private void Start() => pausePanel.SetActive(false);
 
@@ -14,12 +15,14 @@ public class Pause : MonoBehaviour
     {
         Time.timeScale = 0;
         pausePanel.SetActive(true);
+        btnSfx.Play();
     }
 
     public void ResumeGame()
     {
         Time.timeScale = 1;
         pausePanel.SetActive(false);
+        btnSfx.Play();
     }
 
     public void BackMenu(int sceneIndex) => SceneManager.LoadScene(sceneIndex);

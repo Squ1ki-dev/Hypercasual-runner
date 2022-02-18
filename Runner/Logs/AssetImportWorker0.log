@@ -15,11 +15,11 @@ C:/Users/Squ1ki/Downloads/Hypercasual-runner/Runner
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54996
+62168
 Successfully changed project path to: C:/Users/Squ1ki/Downloads/Hypercasual-runner/Runner
 C:/Users/Squ1ki/Downloads/Hypercasual-runner/Runner
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 111.16 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 124.27 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.25f1 (9b9180224418)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Resources/UnitySubsystems
@@ -35,49 +35,49 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56880
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56316
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002339 seconds.
+Registered in 0.003054 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 91.59 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 107.97 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.652 seconds
+- Completed reload, in  0.731 seconds
 Domain Reload Profiling:
-	ReloadAssembly (653ms)
-		BeginReloadAssembly (61ms)
+	ReloadAssembly (731ms)
+		BeginReloadAssembly (57ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (517ms)
-			LoadAssemblies (59ms)
+		EndReloadAssembly (592ms)
+			LoadAssemblies (55ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (163ms)
+			SetupTypeCache (196ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (222ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (245ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (92ms)
+				RefreshPlugins (108ms)
 				BeforeProcessingInitializeOnLoad (13ms)
-				ProcessInitializeOnLoadAttributes (84ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
+				ProcessInitializeOnLoadAttributes (89ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.012096 seconds.
+Registered in 0.014291 seconds.
 Begin MonoManager ReloadAssembly
 Error: Could not load signature of Unity.Android.Logcat.AndroidLogcat:.ctor due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
 Could not load signature of Unity.Android.Logcat.AndroidLogcatIPWindow:Show due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
@@ -87,49 +87,49 @@ Unloading broken assembly Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Ed
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 95.76 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 112.63 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Refreshing native plugins compatible for Editor in 1.28 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.14 ms, found 2 plugins.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.588 seconds
+- Completed reload, in  1.879 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1589ms)
-		BeginReloadAssembly (172ms)
+	ReloadAssembly (1880ms)
+		BeginReloadAssembly (184ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (25ms)
-		EndReloadAssembly (1346ms)
-			LoadAssemblies (138ms)
+		EndReloadAssembly (1611ms)
+			LoadAssemblies (133ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (413ms)
+			SetupTypeCache (523ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (65ms)
-			SetupLoadedEditorAssemblies (532ms)
+			RebuildScriptCaches (115ms)
+			SetupLoadedEditorAssemblies (629ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (96ms)
-				BeforeProcessingInitializeOnLoad (124ms)
-				ProcessInitializeOnLoadAttributes (216ms)
-				ProcessInitializeOnLoadMethodAttributes (85ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				RefreshPlugins (113ms)
+				BeforeProcessingInitializeOnLoad (161ms)
+				ProcessInitializeOnLoadAttributes (248ms)
+				ProcessInitializeOnLoadMethodAttributes (95ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 1.01 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.44 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4166 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 255.8 MB.
-System memory in use after: 256.0 MB.
+Unloading 4630 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 270.3 MB.
+System memory in use after: 270.5 MB.
 
-Unloading 60 unused Assets to reduce memory usage. Loaded Objects now: 4605.
-Total: 4.584700 ms (FindLiveObjects: 0.398400 ms CreateObjectMapping: 0.224500 ms MarkObjects: 3.814700 ms  DeleteObjects: 0.146200 ms)
+Unloading 60 unused Assets to reduce memory usage. Loaded Objects now: 5071.
+Total: 4.987100 ms (FindLiveObjects: 0.448100 ms CreateObjectMapping: 0.318000 ms MarkObjects: 4.076400 ms  DeleteObjects: 0.143400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -143,559 +143,67 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/Game 1.unity
-  artifactKey: Guid(5b5b08cf868b1a141886ed1c8eb054c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Game 1.unity using Guid(5b5b08cf868b1a141886ed1c8eb054c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a0c255d692489816032d466b06063cf') in 0.017722 seconds 
-  Import took 0.024928 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000256 seconds.
   path: Assets/Scenes/Game.unity
   artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Game.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30597eb5ce2880b344ca21e239e29a29') in 0.002338 seconds 
-  Import took 0.010204 seconds .
+Start importing Assets/Scenes/Game.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6617cd88dacdf0bd95de6f63de9a0fe') in 0.021011 seconds 
+  Import took 0.031774 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.023861 seconds.
+Registered in 0.016182 seconds.
 Could not load signature of Unity.Android.Logcat.AndroidLogcatIPWindow:Show due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
 Could not load signature of Unity.Android.Logcat.AndroidLogcatConsoleWindow:GetAndroidDeviceFromCache due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
 Could not load signature of Unity.Android.Logcat.AndroidLogcatConsoleWindow:GetCachedAdb due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
 Begin MonoManager ReloadAssembly
 Error: Could not load signature of Unity.Android.Logcat.AndroidLogcat:.ctor due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.Android.Logcat.AndroidLogcatIPWindow:Show due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
 Could not load signature of Unity.Android.Logcat.AndroidLogcatConsoleWindow:GetAndroidDeviceFromCache due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
 Could not load signature of Unity.Android.Logcat.AndroidLogcatConsoleWindow:GetCachedAdb due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Could not load signature of Unity.Android.Logcat.AndroidLogcatIPWindow:Show due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
 Unloading broken assembly Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll, this assembly can cause crashes in the runtime
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.73 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.32 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.389 seconds
+- Completed reload, in  1.523 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1389ms)
-		BeginReloadAssembly (133ms)
+	ReloadAssembly (1523ms)
+		BeginReloadAssembly (141ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (46ms)
-		EndReloadAssembly (1192ms)
-			LoadAssemblies (107ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (408ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (416ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (126ms)
-				ProcessInitializeOnLoadAttributes (260ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (52ms)
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537460736) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.21 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3980 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 237.2 MB.
-System memory in use after: 237.5 MB.
-
-Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 4607.
-Total: 4.488300 ms (FindLiveObjects: 0.397400 ms CreateObjectMapping: 0.230300 ms MarkObjects: 3.825300 ms  DeleteObjects: 0.034000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 156.622625 seconds.
-  path: Assets/Scenes/Game 1.unity
-  artifactKey: Guid(5b5b08cf868b1a141886ed1c8eb054c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Game 1.unity using Guid(5b5b08cf868b1a141886ed1c8eb054c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c57d353908ae883440c430bcd16ead41') in 0.045414 seconds 
-  Import took 0.053017 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 55.093983 seconds.
-  path: Assets/Sprite/Materials/Взрыв 1.mat
-  artifactKey: Guid(d1ad0adc9af79064aae3ee00288a1121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Materials/Взрыв 1.mat using Guid(d1ad0adc9af79064aae3ee00288a1121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a78238922b17869c0592cf49eec88e2') in 0.561861 seconds 
-  Import took 0.570077 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.472367 seconds.
-  path: Assets/Sprite/ui и тюд/крестик.png
-  artifactKey: Guid(0f713d800364b374abc9824f8263f963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/ui и тюд/крестик.png using Guid(0f713d800364b374abc9824f8263f963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53b2f2eb41256b1b9130a4daecb5ef27') in 0.129552 seconds 
-  Import took 0.136872 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000339 seconds.
-  path: Assets/Sprite/ui и тюд/меню.png
-  artifactKey: Guid(52041f8987ac02b4e966a69aab045fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/ui и тюд/меню.png using Guid(52041f8987ac02b4e966a69aab045fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e2deed906853fa6baa213e83c0f0676') in 0.076561 seconds 
-  Import took 0.083502 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000288 seconds.
-  path: Assets/Sprite/ui и тюд/пауза.png
-  artifactKey: Guid(99727f4b25a34d34984d4260d65ecc21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/ui и тюд/пауза.png using Guid(99727f4b25a34d34984d4260d65ecc21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1ce4bca33d2d6cf5176af05c9fbcc7a') in 0.078349 seconds 
-  Import took 0.085686 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.092334 seconds.
-  path: Assets/Sprite/ui и тюд/крестик.png
-  artifactKey: Guid(0f713d800364b374abc9824f8263f963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/ui и тюд/крестик.png using Guid(0f713d800364b374abc9824f8263f963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9b66ad0d2135dc1b65fea29da6599db') in 0.072455 seconds 
-  Import took 0.080497 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.127493 seconds.
-  path: Assets/Sprite/ui и тюд/меню.png
-  artifactKey: Guid(52041f8987ac02b4e966a69aab045fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/ui и тюд/меню.png using Guid(52041f8987ac02b4e966a69aab045fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e98bd19174120fa812fe8238eceb075d') in 0.062325 seconds 
-  Import took 0.070376 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.329097 seconds.
-  path: Assets/Sprite/ui и тюд/пауза.png
-  artifactKey: Guid(99727f4b25a34d34984d4260d65ecc21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/ui и тюд/пауза.png using Guid(99727f4b25a34d34984d4260d65ecc21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '928e64113f93120725ad0de3a978b358') in 0.055705 seconds 
-  Import took 0.064163 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 51.524651 seconds.
-  path: Assets/Sprite/ui и тюд/меню.png
-  artifactKey: Guid(52041f8987ac02b4e966a69aab045fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/ui и тюд/меню.png using Guid(52041f8987ac02b4e966a69aab045fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce7b19c6b8f0a8f875ad65237e9ab5c2') in 0.061159 seconds 
-  Import took 0.074719 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 556.651297 seconds.
-  path: Assets/Sprite/ui и тюд/меню.png
-  artifactKey: Guid(52041f8987ac02b4e966a69aab045fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/ui и тюд/меню.png using Guid(52041f8987ac02b4e966a69aab045fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '432f7b7fa9150453a0c42f1a99652cdb') in 0.141951 seconds 
-  Import took 0.150252 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.403237 seconds.
-  path: Assets/Sprite/ui и тюд/меню.png
-  artifactKey: Guid(52041f8987ac02b4e966a69aab045fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/ui и тюд/меню.png using Guid(52041f8987ac02b4e966a69aab045fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac4b77fca45d931ece953317e0a1a510') in 0.117853 seconds 
-  Import took 0.128642 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.282278 seconds.
-  path: Assets/Sprite/ui и тюд/меню.png
-  artifactKey: Guid(52041f8987ac02b4e966a69aab045fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/ui и тюд/меню.png using Guid(52041f8987ac02b4e966a69aab045fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a6ef8c95e647f55572c22e545d65e50') in 0.077316 seconds 
-  Import took 0.084547 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 142.994350 seconds.
-  path: Assets/Scenes/Game.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Game.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dc5c923ce6d290cbaf3038ddfa90468') in 0.002967 seconds 
-  Import took 0.011243 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011674 seconds.
-Could not load signature of Unity.Android.Logcat.AndroidLogcatIPWindow:Show due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.Android.Logcat.AndroidLogcatConsoleWindow:GetAndroidDeviceFromCache due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.Android.Logcat.AndroidLogcatConsoleWindow:GetCachedAdb due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-Begin MonoManager ReloadAssembly
-Error: Could not load signature of Unity.Android.Logcat.AndroidLogcat:.ctor due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.Android.Logcat.AndroidLogcatConsoleWindow:GetAndroidDeviceFromCache due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.Android.Logcat.AndroidLogcatConsoleWindow:GetCachedAdb due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.Android.Logcat.AndroidLogcatIPWindow:Show due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-Unloading broken assembly Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll, this assembly can cause crashes in the runtime
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.17 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.412 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1412ms)
-		BeginReloadAssembly (147ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (51ms)
-		EndReloadAssembly (1202ms)
-			LoadAssemblies (107ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (391ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (54ms)
-			SetupLoadedEditorAssemblies (409ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (120ms)
-				ProcessInitializeOnLoadAttributes (261ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (49ms)
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537460736) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.16 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3980 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 242.7 MB.
-System memory in use after: 243.0 MB.
-
-Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 4689.
-Total: 4.881100 ms (FindLiveObjects: 0.451600 ms CreateObjectMapping: 0.308400 ms MarkObjects: 4.085600 ms  DeleteObjects: 0.034400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011746 seconds.
-Could not load signature of Unity.Android.Logcat.AndroidLogcatIPWindow:Show due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.Android.Logcat.AndroidLogcatConsoleWindow:GetAndroidDeviceFromCache due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.Android.Logcat.AndroidLogcatConsoleWindow:GetCachedAdb due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-Begin MonoManager ReloadAssembly
-Error: Could not load signature of Unity.Android.Logcat.AndroidLogcat:.ctor due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.Android.Logcat.AndroidLogcatConsoleWindow:GetAndroidDeviceFromCache due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.Android.Logcat.AndroidLogcatConsoleWindow:GetCachedAdb due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.Android.Logcat.AndroidLogcatIPWindow:Show due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-Unloading broken assembly Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll, this assembly can cause crashes in the runtime
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.25 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.474 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1474ms)
-		BeginReloadAssembly (153ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (62ms)
-		EndReloadAssembly (1256ms)
-			LoadAssemblies (110ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (418ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (52ms)
-			SetupLoadedEditorAssemblies (401ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (126ms)
-				ProcessInitializeOnLoadAttributes (247ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (48ms)
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537460736) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.10 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3979 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 242.7 MB.
-System memory in use after: 243.0 MB.
-
-Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 4690.
-Total: 4.824400 ms (FindLiveObjects: 0.509800 ms CreateObjectMapping: 0.259100 ms MarkObjects: 4.018000 ms  DeleteObjects: 0.036300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011787 seconds.
-Could not load signature of Unity.Android.Logcat.AndroidLogcatIPWindow:Show due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.Android.Logcat.AndroidLogcatConsoleWindow:GetAndroidDeviceFromCache due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.Android.Logcat.AndroidLogcatConsoleWindow:GetCachedAdb due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-Begin MonoManager ReloadAssembly
-Error: Could not load signature of Unity.Android.Logcat.AndroidLogcat:.ctor due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.Android.Logcat.AndroidLogcatConsoleWindow:GetAndroidDeviceFromCache due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.Android.Logcat.AndroidLogcatConsoleWindow:GetCachedAdb due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.Android.Logcat.AndroidLogcatIPWindow:Show due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-Unloading broken assembly Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll, this assembly can cause crashes in the runtime
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.36 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.476 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1476ms)
-		BeginReloadAssembly (156ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (43ms)
-		EndReloadAssembly (1253ms)
-			LoadAssemblies (146ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (414ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (54ms)
-			SetupLoadedEditorAssemblies (425ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (126ms)
-				ProcessInitializeOnLoadAttributes (271ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (49ms)
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537460736) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.18 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3979 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 242.8 MB.
-System memory in use after: 243.0 MB.
-
-Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 4692.
-Total: 5.079400 ms (FindLiveObjects: 0.530900 ms CreateObjectMapping: 0.230500 ms MarkObjects: 4.285300 ms  DeleteObjects: 0.031500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011322 seconds.
-Could not load signature of Unity.Android.Logcat.AndroidLogcatIPWindow:Show due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.Android.Logcat.AndroidLogcatConsoleWindow:GetAndroidDeviceFromCache due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.Android.Logcat.AndroidLogcatConsoleWindow:GetCachedAdb due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-Begin MonoManager ReloadAssembly
-Error: Could not load signature of Unity.Android.Logcat.AndroidLogcat:.ctor due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.Android.Logcat.AndroidLogcatConsoleWindow:GetAndroidDeviceFromCache due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.Android.Logcat.AndroidLogcatConsoleWindow:GetCachedAdb due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.Android.Logcat.AndroidLogcatIPWindow:Show due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-Unloading broken assembly Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll, this assembly can cause crashes in the runtime
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.12 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.389 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1390ms)
-		BeginReloadAssembly (135ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (39ms)
-		EndReloadAssembly (1184ms)
+			CreateAndSetChildDomain (47ms)
+		EndReloadAssembly (1310ms)
 			LoadAssemblies (112ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (394ms)
+			SetupTypeCache (431ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (51ms)
-			SetupLoadedEditorAssemblies (386ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (116ms)
-				ProcessInitializeOnLoadAttributes (242ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (47ms)
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537460736) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.13 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3978 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 242.8 MB.
-System memory in use after: 243.0 MB.
-
-Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 4693.
-Total: 5.654400 ms (FindLiveObjects: 0.414400 ms CreateObjectMapping: 0.257600 ms MarkObjects: 4.939000 ms  DeleteObjects: 0.042400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 97.650090 seconds.
-  path: Assets/Scripts/Coin.cs
-  artifactKey: Guid(9ee0f3d0cdd33f541bee7f416607ae48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Coin.cs using Guid(9ee0f3d0cdd33f541bee7f416607ae48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f3bf8a90c271e097e41491e4f4d4c8e') in 0.016384 seconds 
-  Import took 0.024301 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.394773 seconds.
-  path: Assets/Scripts/Pause.cs
-  artifactKey: Guid(0d754f57460dd4b4d923ebbab43e3c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Pause.cs using Guid(0d754f57460dd4b4d923ebbab43e3c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae7c2d05447d4116bb8dc4d914556f02') in 0.006256 seconds 
-  Import took 0.015669 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.393319 seconds.
-  path: Assets/Scripts/PlayerController.cs
-  artifactKey: Guid(7fb9a1ce17068cc47808a74dd36729a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlayerController.cs using Guid(7fb9a1ce17068cc47808a74dd36729a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61b9c704829c579aa5954b7b64cbe2d4') in 0.003347 seconds 
-  Import took 0.011262 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.503319 seconds.
-  path: Assets/Scripts/SwipeController.cs
-  artifactKey: Guid(bbf7724ca61491b4ca3b62ed481b983c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SwipeController.cs using Guid(bbf7724ca61491b4ca3b62ed481b983c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8403b45342654f9ca18dafb8b7e239a') in 0.006324 seconds 
-  Import took 0.014386 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.014358 seconds.
-  path: Assets/Scripts/TileGenerator.cs
-  artifactKey: Guid(f6bcd2c1d45c99a4fb6eb605f302ee26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/TileGenerator.cs using Guid(f6bcd2c1d45c99a4fb6eb605f302ee26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd523987ec8623892c6b86a54f2b1b328') in 0.003312 seconds 
-  Import took 0.015698 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011649 seconds.
-Could not load signature of Unity.Android.Logcat.AndroidLogcatIPWindow:Show due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.Android.Logcat.AndroidLogcatConsoleWindow:GetAndroidDeviceFromCache due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.Android.Logcat.AndroidLogcatConsoleWindow:GetCachedAdb due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-Begin MonoManager ReloadAssembly
-Error: Could not load signature of Unity.Android.Logcat.AndroidLogcat:.ctor due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.Android.Logcat.AndroidLogcatConsoleWindow:GetAndroidDeviceFromCache due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.Android.Logcat.AndroidLogcatConsoleWindow:GetCachedAdb due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-Could not load signature of Unity.Android.Logcat.AndroidLogcatIPWindow:Show due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-Unloading broken assembly Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll, this assembly can cause crashes in the runtime
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.21 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.472 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1473ms)
-		BeginReloadAssembly (137ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (51ms)
-		EndReloadAssembly (1266ms)
-			LoadAssemblies (116ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (408ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (53ms)
-			SetupLoadedEditorAssemblies (430ms)
+			RebuildScriptCaches (82ms)
+			SetupLoadedEditorAssemblies (447ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (128ms)
-				ProcessInitializeOnLoadAttributes (274ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				BeforeProcessingInitializeOnLoad (138ms)
+				ProcessInitializeOnLoadAttributes (264ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (10ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (50ms)
+			AwakeInstancesAfterBackupRestoration (71ms)
 Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537460736) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.13 ms, found 2 plugins.
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537460740) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.09 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3978 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 242.8 MB.
-System memory in use after: 243.0 MB.
+Unloading 4436 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 250.5 MB.
+System memory in use after: 250.7 MB.
 
-Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 4695.
-Total: 4.604700 ms (FindLiveObjects: 0.412700 ms CreateObjectMapping: 0.229300 ms MarkObjects: 3.928200 ms  DeleteObjects: 0.033500 ms)
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 5073.
+Total: 5.027500 ms (FindLiveObjects: 0.352000 ms CreateObjectMapping: 0.259500 ms MarkObjects: 4.374300 ms  DeleteObjects: 0.040200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -709,17 +217,9 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 23.404947 seconds.
-  path: Assets/Scripts/Coin.cs
-  artifactKey: Guid(9ee0f3d0cdd33f541bee7f416607ae48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Coin.cs using Guid(9ee0f3d0cdd33f541bee7f416607ae48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45b5f6889554415b8ee616aba7e7b20a') in 0.006316 seconds 
-  Import took 0.013577 seconds .
-
-========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.011365 seconds.
+Registered in 0.014587 seconds.
 Could not load signature of Unity.Android.Logcat.AndroidLogcatIPWindow:Show due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
 Could not load signature of Unity.Android.Logcat.AndroidLogcatConsoleWindow:GetAndroidDeviceFromCache due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
 Could not load signature of Unity.Android.Logcat.AndroidLogcatConsoleWindow:GetCachedAdb due to: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
@@ -732,46 +232,46 @@ Unloading broken assembly Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Ed
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.09 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.22 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.446 seconds
+- Completed reload, in  1.602 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1447ms)
-		BeginReloadAssembly (136ms)
+	ReloadAssembly (1603ms)
+		BeginReloadAssembly (144ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (41ms)
-		EndReloadAssembly (1229ms)
-			LoadAssemblies (127ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (1384ms)
+			LoadAssemblies (221ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (404ms)
+			SetupTypeCache (435ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (53ms)
-			SetupLoadedEditorAssemblies (393ms)
+			RebuildScriptCaches (81ms)
+			SetupLoadedEditorAssemblies (445ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (121ms)
-				ProcessInitializeOnLoadAttributes (244ms)
-				ProcessInitializeOnLoadMethodAttributes (14ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				BeforeProcessingInitializeOnLoad (135ms)
+				ProcessInitializeOnLoadAttributes (276ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (47ms)
 Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537460736) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.39 ms, found 2 plugins.
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537460740) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.17 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3978 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 242.8 MB.
-System memory in use after: 243.1 MB.
+Unloading 4436 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 250.5 MB.
+System memory in use after: 250.8 MB.
 
-Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 4697.
-Total: 5.506000 ms (FindLiveObjects: 0.609400 ms CreateObjectMapping: 0.374600 ms MarkObjects: 4.487200 ms  DeleteObjects: 0.031700 ms)
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 5075.
+Total: 5.028300 ms (FindLiveObjects: 0.477800 ms CreateObjectMapping: 0.325700 ms MarkObjects: 4.177200 ms  DeleteObjects: 0.046000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -786,18 +286,274 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 53.898527 seconds.
-  path: Assets/Scripts/Coin.cs
-  artifactKey: Guid(9ee0f3d0cdd33f541bee7f416607ae48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Coin.cs using Guid(9ee0f3d0cdd33f541bee7f416607ae48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c33f9b99cdaea616dc96ab493ae66a2b') in 0.007686 seconds 
-  Import took 0.016795 seconds .
+  Time since last request: 1528.938060 seconds.
+  path: Assets/Prefab/Particle/Coin.prefab
+  artifactKey: Guid(feadde1f59e9337408b0a840b29d612a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Particle/Coin.prefab using Guid(feadde1f59e9337408b0a840b29d612a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '265c6a035d24aff7244cd0efd130ae7a') in 0.301019 seconds 
+  Import took 0.314626 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 17.615094 seconds.
-  path: Assets/Scripts/LoadingScene.cs
-  artifactKey: Guid(ed62a5c23706d564eadf90327195ab5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LoadingScene.cs using Guid(ed62a5c23706d564eadf90327195ab5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70ce77064070ca4398a8f95bb6662ee8') in 0.006594 seconds 
-  Import took 0.015230 seconds .
+  Time since last request: 17.719107 seconds.
+  path: Assets/Prefab/Tiles/1.prefab
+  artifactKey: Guid(c530ee41d5a97db4995997f3bfef6f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Tiles/1.prefab using Guid(c530ee41d5a97db4995997f3bfef6f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '490bcf1338ad0b565342bf9b87106c54') in 0.076160 seconds 
+  Import took 0.087731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/Prefab/Tiles/10.prefab
+  artifactKey: Guid(1e5286e152ca89b448a400888be6ea33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Tiles/10.prefab using Guid(1e5286e152ca89b448a400888be6ea33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebcb16fbec2090e8871f036af9e09091') in 0.042863 seconds 
+  Import took 0.055639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000790 seconds.
+  path: Assets/Prefab/Tiles/8.prefab
+  artifactKey: Guid(1546c9f9a0766f1428d6761d381b343e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Tiles/8.prefab using Guid(1546c9f9a0766f1428d6761d381b343e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a19634af66fccacb20d5f7b653abdf59') in 0.041919 seconds 
+  Import took 0.058132 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Prefab/Tiles/6.prefab
+  artifactKey: Guid(c6e16f3b5b851ca4f8828664485b6023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Tiles/6.prefab using Guid(c6e16f3b5b851ca4f8828664485b6023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bf4e5d6626b0291feaa42ab22809a41') in 0.048412 seconds 
+  Import took 0.063003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Prefab/Tiles/9.prefab
+  artifactKey: Guid(670cd2dc339221948a149cd5a1384e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Tiles/9.prefab using Guid(670cd2dc339221948a149cd5a1384e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39f658c899da5fa3bf15545f4aac2c5d') in 0.042953 seconds 
+  Import took 0.056456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Prefab/Tiles/3.prefab
+  artifactKey: Guid(aefe9f342f1646d4b94eaedcacb1526a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Tiles/3.prefab using Guid(aefe9f342f1646d4b94eaedcacb1526a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64396c6d098024f3795bddb07f9e05e7') in 0.034499 seconds 
+  Import took 0.049509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/Prefab/Tiles/12.prefab
+  artifactKey: Guid(84df8af26021a75419ddb902a26a9e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Tiles/12.prefab using Guid(84df8af26021a75419ddb902a26a9e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dcc0cca31a33e1a1da9c006b2b83bb3') in 0.048239 seconds 
+  Import took 0.062219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Prefab/Tiles/2.prefab
+  artifactKey: Guid(0a3f4ef86d8122349b9880c833e109fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Tiles/2.prefab using Guid(0a3f4ef86d8122349b9880c833e109fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f5614be8bd6e985e0cd1b9602c6961d') in 0.040289 seconds 
+  Import took 0.054735 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000413 seconds.
+  path: Assets/Prefab/Tiles/4.prefab
+  artifactKey: Guid(d3b57340acdfa0441acfa91dd2d54833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Tiles/4.prefab using Guid(d3b57340acdfa0441acfa91dd2d54833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27a626817046005fc1ad761ac131b777') in 0.041977 seconds 
+  Import took 0.055444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Prefab/Tiles/5.prefab
+  artifactKey: Guid(7232bd090d71cda40a148aa5910aa71c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Tiles/5.prefab using Guid(7232bd090d71cda40a148aa5910aa71c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6e5918a35d6fab22543815b46b43543') in 0.035461 seconds 
+  Import took 0.050248 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Prefab/Tiles/13.prefab
+  artifactKey: Guid(2b1445663c8c12c4b88e19cb9f1b2283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Tiles/13.prefab using Guid(2b1445663c8c12c4b88e19cb9f1b2283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5718532b731d2e472d8727fffa81058') in 0.053191 seconds 
+  Import took 0.064329 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Prefab/Tiles/7.prefab
+  artifactKey: Guid(81aa39151bbaf1d4ca1265bf1204abae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Tiles/7.prefab using Guid(81aa39151bbaf1d4ca1265bf1204abae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51006ef8185e5de4ac5a275caaad53ae') in 0.034620 seconds 
+  Import took 0.049226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.547038 seconds.
+  path: Assets/Prefab/Tiles/1.prefab
+  artifactKey: Guid(c530ee41d5a97db4995997f3bfef6f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Tiles/1.prefab using Guid(c530ee41d5a97db4995997f3bfef6f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f85855b23acded74df8042f73921fa3') in 0.043243 seconds 
+  Import took 0.060285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.903727 seconds.
+  path: Assets/Prefab/Tiles/1.prefab
+  artifactKey: Guid(c530ee41d5a97db4995997f3bfef6f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Tiles/1.prefab using Guid(c530ee41d5a97db4995997f3bfef6f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27580eea9a12253cd52e968a99983409') in 0.061248 seconds 
+  Import took 0.078826 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.048058 seconds.
+  path: Assets/Prefab/Tiles/1.prefab
+  artifactKey: Guid(c530ee41d5a97db4995997f3bfef6f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Tiles/1.prefab using Guid(c530ee41d5a97db4995997f3bfef6f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87d9e1b96e996035abac521f8c42ce7f') in 0.063312 seconds 
+  Import took 0.077916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.765318 seconds.
+  path: Assets/Prefab/Tiles/2.prefab
+  artifactKey: Guid(0a3f4ef86d8122349b9880c833e109fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Tiles/2.prefab using Guid(0a3f4ef86d8122349b9880c833e109fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a1c7d47d4ee892eb4320803a0c3ea71') in 0.057892 seconds 
+  Import took 0.070565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.142339 seconds.
+  path: Assets/Prefab/Tiles/2.prefab
+  artifactKey: Guid(0a3f4ef86d8122349b9880c833e109fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Tiles/2.prefab using Guid(0a3f4ef86d8122349b9880c833e109fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8767c7bc2a199bebf7192bda0fab6688') in 0.059049 seconds 
+  Import took 0.068901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.939169 seconds.
+  path: Assets/Prefab/Tiles/4.prefab
+  artifactKey: Guid(d3b57340acdfa0441acfa91dd2d54833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Tiles/4.prefab using Guid(d3b57340acdfa0441acfa91dd2d54833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66230fab23ff86d1a94c1cb9924b9c10') in 0.062239 seconds 
+  Import took 0.078305 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.216297 seconds.
+  path: Assets/Prefab/Tiles/5.prefab
+  artifactKey: Guid(7232bd090d71cda40a148aa5910aa71c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Tiles/5.prefab using Guid(7232bd090d71cda40a148aa5910aa71c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61ec27a4ec2199dfc6ce7573181ec72d') in 0.058663 seconds 
+  Import took 0.078498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.028141 seconds.
+  path: Assets/Prefab/Tiles/5.prefab
+  artifactKey: Guid(7232bd090d71cda40a148aa5910aa71c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Tiles/5.prefab using Guid(7232bd090d71cda40a148aa5910aa71c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '392eeff2064ca523c722e079f72f07c6') in 0.059617 seconds 
+  Import took 0.071574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.945597 seconds.
+  path: Assets/Prefab/Tiles/5.prefab
+  artifactKey: Guid(7232bd090d71cda40a148aa5910aa71c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Tiles/5.prefab using Guid(7232bd090d71cda40a148aa5910aa71c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bb33ba28aa8ec0815bc6ce9325bc350') in 0.059511 seconds 
+  Import took 0.080229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.940500 seconds.
+  path: Assets/Prefab/Tiles/5.prefab
+  artifactKey: Guid(7232bd090d71cda40a148aa5910aa71c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Tiles/5.prefab using Guid(7232bd090d71cda40a148aa5910aa71c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4d4d3575ed19ed11e4588b1c3b14075') in 0.063373 seconds 
+  Import took 0.082695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.276452 seconds.
+  path: Assets/Prefab/Tiles/6.prefab
+  artifactKey: Guid(c6e16f3b5b851ca4f8828664485b6023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Tiles/6.prefab using Guid(c6e16f3b5b851ca4f8828664485b6023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e041af98f6bad4ada2da0e5f76d4e3f3') in 0.060005 seconds 
+  Import took 0.080330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.125364 seconds.
+  path: Assets/Prefab/Tiles/6.prefab
+  artifactKey: Guid(c6e16f3b5b851ca4f8828664485b6023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Tiles/6.prefab using Guid(c6e16f3b5b851ca4f8828664485b6023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c514f992a7bca7c9c2a1e31329304024') in 0.061989 seconds 
+  Import took 0.077975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.230019 seconds.
+  path: Assets/Prefab/Tiles/6.prefab
+  artifactKey: Guid(c6e16f3b5b851ca4f8828664485b6023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Tiles/6.prefab using Guid(c6e16f3b5b851ca4f8828664485b6023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af87010a6fa00c71f30d1e871a991b20') in 0.061830 seconds 
+  Import took 0.079522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.217781 seconds.
+  path: Assets/Prefab/Tiles/9.prefab
+  artifactKey: Guid(670cd2dc339221948a149cd5a1384e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Tiles/9.prefab using Guid(670cd2dc339221948a149cd5a1384e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e46e722a88e7fd4aa4f01d1f8f8c184') in 0.061303 seconds 
+  Import took 0.079393 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.290336 seconds.
+  path: Assets/Prefab/Tiles/9.prefab
+  artifactKey: Guid(670cd2dc339221948a149cd5a1384e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Tiles/9.prefab using Guid(670cd2dc339221948a149cd5a1384e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f45fe94e463f6e1ac037e184f88c3ef4') in 0.063209 seconds 
+  Import took 0.081389 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.323506 seconds.
+  path: Assets/Prefab/Tiles/11.prefab
+  artifactKey: Guid(626e6b27c33b3604f9f9b0c7e9694ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Tiles/11.prefab using Guid(626e6b27c33b3604f9f9b0c7e9694ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdb124879bced936e5de21483f45684c') in 0.062299 seconds 
+  Import took 0.076875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.436943 seconds.
+  path: Assets/Prefab/Tiles/11.prefab
+  artifactKey: Guid(626e6b27c33b3604f9f9b0c7e9694ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Tiles/11.prefab using Guid(626e6b27c33b3604f9f9b0c7e9694ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd73939bcb02c84a56d67223f6d972136') in 0.062519 seconds 
+  Import took 0.079633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.845168 seconds.
+  path: Assets/Prefab/Tiles/12.prefab
+  artifactKey: Guid(84df8af26021a75419ddb902a26a9e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Tiles/12.prefab using Guid(84df8af26021a75419ddb902a26a9e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f48b6915899df0b2b5b904e73c5865fd') in 0.062099 seconds 
+  Import took 0.077239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.027403 seconds.
+  path: Assets/Prefab/Tiles/12.prefab
+  artifactKey: Guid(84df8af26021a75419ddb902a26a9e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Tiles/12.prefab using Guid(84df8af26021a75419ddb902a26a9e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20537b774144d32eed8d1bcf6cced2a0') in 0.063112 seconds 
+  Import took 0.081631 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.171576 seconds.
+  path: Assets/Prefab/Tiles/12.prefab
+  artifactKey: Guid(84df8af26021a75419ddb902a26a9e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Tiles/12.prefab using Guid(84df8af26021a75419ddb902a26a9e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '104f8aa986710235d278b30ab580c2cd') in 0.063237 seconds 
+  Import took 0.079809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.480956 seconds.
+  path: Assets/Prefab/Tiles/12.prefab
+  artifactKey: Guid(84df8af26021a75419ddb902a26a9e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Tiles/12.prefab using Guid(84df8af26021a75419ddb902a26a9e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3897cd4571c40dc1845cf5dab19a6f5c') in 0.064213 seconds 
+  Import took 0.077932 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

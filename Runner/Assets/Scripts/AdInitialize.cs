@@ -5,8 +5,5 @@ using GoogleMobileAds.Api;
 
 public class AdInitialize : MonoBehaviour
 {
-    private void Awake() 
-    {
-        MobileAds.Initialize(initStatus => {});
-    }
+    private void Awake() => MobileAds.Initialize(initStatus => { });
 }

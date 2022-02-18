@@ -11,12 +11,9 @@ public class LoadingScene : MonoBehaviour
     [SerializeField] private int sceneIndex;    
     [SerializeField] private Slider loadingSlider;
 
-    void Update()
-    {
-        NextScene();
-    }
+    private void Update() => NextScene();
 
-    void NextScene()
+    private void NextScene()
     {
         loadingSlider.value = sliderValue;
         loadingTime += 20 * Time.deltaTime;

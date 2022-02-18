@@ -10,38 +10,15 @@ public class SwipeController : MonoBehaviour
 
     private void Update()
     {
+        Swipe();
+        PcSwipe();
+        MobileSwipe();
+        
+    }
+
+    private void Swipe()
+    {
         tap = swipeUp = swipeLeft = swipeRight = false;
-        #region PC Version
-        if (Input.GetMouseButtonDown(0))
-        {
-            tap = true;
-            isDraging = true;
-            startTouch = Input.mousePosition;
-        }
-        else if (Input.GetMouseButtonUp(0))
-        {
-            isDraging = false;
-            Reset();
-        }
-        #endregion
-
-        #region Mobile Version
-        if (Input.touches.Length > 0)
-        {
-            if (Input.touches[0].phase == TouchPhase.Began)
-            {
-                tap = true;
-                isDraging = true;
-                startTouch = Input.touches[0].position;
-            }
-            else if (Input.touches[0].phase == TouchPhase.Ended || Input.touches[0].phase == TouchPhase.Canceled)
-            {
-                isDraging = false;
-                Reset();
-            }
-        }
-        #endregion
-
         //Просчитать дистанцию
         swipeDelta = Vector2.zero;
         if (isDraging)
@@ -71,10 +48,41 @@ public class SwipeController : MonoBehaviour
                 if (y > 0)
                     swipeUp = true;
             }
-
             Reset();
         }
+    }
 
+    private void PcSwipe()
+    {
+        if (Input.GetMouseButtonDown(0))
+        {
+            tap = true;
+            isDraging = true;
+            startTouch = Input.mousePosition;
+        }
+        else if (Input.GetMouseButtonUp(0))
+        {
+            isDraging = false;
+            Reset();
+        }
+    }
+
+    private void MobileSwipe()
+    {
+        if (Input.touches.Length > 0)
+        {
+            if (Input.touches[0].phase == TouchPhase.Began)
+            {
+                tap = true;
+                isDraging = true;
+                startTouch = Input.touches[0].position;
+            }
+            else if (Input.touches[0].phase == TouchPhase.Ended || Input.touches[0].phase == TouchPhase.Canceled)
+            {
+                isDraging = false;
+                Reset();
+            }
+        }
     }
 
     private void Reset()

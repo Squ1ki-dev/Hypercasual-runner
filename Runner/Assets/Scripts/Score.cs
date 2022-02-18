@@ -5,11 +5,8 @@ using TMPro;
 
 public class Score : MonoBehaviour
 {
-    [SerializeField] private Transform player;
     public TextMeshProUGUI scoreText;
+    [SerializeField] private Transform player;
 
-    void Update()
-    {
-        scoreText.text = ((int)(player.position.z / 2)).ToString();
-    }
+    private void Update() => scoreText.text = ((int)(player.position.z / 2)).ToString();
 }
