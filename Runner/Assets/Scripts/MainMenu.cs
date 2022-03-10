@@ -39,5 +39,6 @@ public class MainMenu : MonoBehaviour
         sfxAudio.Play();
         SceneManager.LoadScene(sceneIndex);
     }
+    
     public void Exit() => Application.Quit();
 }

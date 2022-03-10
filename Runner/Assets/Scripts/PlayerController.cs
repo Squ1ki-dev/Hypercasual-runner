@@ -3,11 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
+[RequireComponent(typeof(CharacterController))]
 public class PlayerController : MonoBehaviour
 {
     // Ads
-    public InterAd interAd;
     private int tryCount;
+    public InterAd interAd;
 
     // CHARACTER
     private CharacterController controller;
@@ -15,13 +16,18 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float speed;
     [SerializeField] private float jumpForce;
     [SerializeField] private float gravity;
-    [SerializeField] private int coins;
+    
+    // GROUND
+    [SerializeField] private bool isGrounded;
+    [SerializeField] private LayerMask groundLayer;
+    [SerializeField] private Transform groundCheck;
 
     // UI
-    [SerializeField] private GameObject losePanel;
+    [SerializeField] private int coins;
     [SerializeField] private TextMeshProUGUI coinsText;
     [SerializeField] private Score scoreScript;
-
+    [SerializeField] private GameObject losePanel;
+    
     // PARTICLE
     [SerializeField] private ParticleSystem snowParticle;
     [SerializeField] private GameObject coinCollectParticle;
@@ -31,18 +37,18 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private AudioClip coinSound;
     [SerializeField] private AudioClip jumpSound;
 
+    // ANIMANOR
     [SerializeField] private Animator animator;
 
     // LINES
     private int lineToMove = 1;
-    [SerializeField] private float lineDistance = 4;
     private const int maxSpeed = 120;
+    [SerializeField] private float lineDistance = 4;
 
     private void Awake() 
     {
         audioSource = GetComponent<AudioSource>();
         controller = GetComponent<CharacterController>();
-        Time.timeScale = 1;
     }
     
     private void Start()
@@ -57,6 +63,9 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate() 
     {
+        if(!PlayerManager.isGameStarted)
+            return;
+
         dir.z = speed;
         dir.y += gravity * Time.fixedDeltaTime;
         controller.Move(dir * Time.fixedDeltaTime);
@@ -64,6 +73,12 @@ public class PlayerController : MonoBehaviour
 
     public void PlayerMove()
     {
+        if(!PlayerManager.isGameStarted)
+            return;
+            
+        isGrounded = Physics.CheckSphere(groundCheck.position, 0.9f, groundLayer);
+        animator.SetBool("isGrounded", isGrounded);
+
         if(SwipeController.swipeRight)
         {
             if(lineToMove < 2)
@@ -80,11 +95,9 @@ public class PlayerController : MonoBehaviour
                 snowParticle.Play();
             }
         }
-        if(SwipeController.swipeUp)
+        if(controller.isGrounded)
         {
-            animator.SetBool("isGrounded", true);
-            snowParticle.Pause();
-            if(controller.isGrounded)
+            if(SwipeController.swipeUp)
                 Jump();
         }
 
@@ -96,9 +109,6 @@ public class PlayerController : MonoBehaviour
 
         if(transform.position == targetPosition)
             return;
-
-        animator.SetBool("isGrounded", false);
-        snowParticle.Play();
         
         Vector3 diff = targetPosition - transform.position;
         Vector3 moveDir = diff.normalized * 30 * Time.deltaTime;
@@ -106,11 +116,13 @@ public class PlayerController : MonoBehaviour
             controller.Move(moveDir);
         else
             controller.Move(diff);
+        
     }
 
     private void Jump()
     {
         audioSource.PlayOneShot(jumpSound, .125f);
+        snowParticle.Pause();
         dir.y = jumpForce;
     }
 

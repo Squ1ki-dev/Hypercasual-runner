@@ -22,10 +22,9 @@ public class Lose : MonoBehaviour
             recordText.text = "BEST SCORE: " + recordScore.ToString();
         }
         else
-        {
             recordText.text = "BEST SCORE: " + recordScore.ToString();
-        }
     }
+    
     public void RestartLevel() => SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 
     public void BackMenu(int sceneIndex)

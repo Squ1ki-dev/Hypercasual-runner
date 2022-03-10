@@ -19,6 +19,7 @@ public class SwipeController : MonoBehaviour
     private void Swipe()
     {
         tap = swipeUp = swipeLeft = swipeRight = false;
+        
         //Просчитать дистанцию
         swipeDelta = Vector2.zero;
         if (isDraging)

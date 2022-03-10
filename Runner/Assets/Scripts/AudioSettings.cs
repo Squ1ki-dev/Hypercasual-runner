@@ -17,7 +17,7 @@ public class AudioSettings : MonoBehaviour
     [SerializeField] private AudioSource backgroundAudio;
     [SerializeField] private AudioSource[] soundEffectsAudio;
 
-    private void Start()
+    private void Awake()
     {
         firstPlayInt = PlayerPrefs.GetInt(firstPlay);
 

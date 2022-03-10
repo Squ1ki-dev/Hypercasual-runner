@@ -93,7 +93,7 @@ GameObject:
   - component: {fileID: 6509181530237544802}
   - component: {fileID: 6867524823183375797}
   - component: {fileID: 3383089475410974504}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: lp_obj_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -629,7 +629,7 @@ PrefabInstance:
     - target: {fileID: 549866756702829508, guid: 8827e9ad30ff9b4488542bd2a0e2ebe2,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 401
+      value: 720
       objectReference: {fileID: 0}
     - target: {fileID: 3384642511934893169, guid: 8827e9ad30ff9b4488542bd2a0e2ebe2,
         type: 3}
